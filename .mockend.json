@@ -1,0 +1,36 @@
+{
+ pages: [
+  {
+   name: "page1",
+   elements: [
+    {
+     type: "radiogroup",
+     name: "question1",
+     title: "At this time of graduation, what is your immediate next step?",
+     choices: [
+      {
+       value: "item1",
+       text: "Join a job/internship I have secured"
+      },
+      {
+       value: "item2",
+       text: "Search for a job"
+      },
+      {
+       value: "item3",
+       text: "Join the graduate school for which I have obtained admission"
+      },
+      {
+       value: "item4",
+       text: " Find a graduate school that I can join"
+      }
+     ],
+     hasOther: true,
+     otherText: " Take a break"
+    }
+   ],
+   title: "SIU Graduation Survey",
+   description: "Dear Graduating Senior, Please respond to the following four-items as your answers will help SIU gather important data that will be useful in preparing future students more successfully for their careers. "
+  }
+ ]
+}
